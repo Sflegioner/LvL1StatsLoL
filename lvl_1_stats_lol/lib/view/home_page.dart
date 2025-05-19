@@ -1,11 +1,16 @@
 
 import 'package:flutter/cupertino.dart';
-class HomePage extends Widget{
+import 'package:flutter/material.dart';
+
+class HomePage extends StatelessWidget{
   @override
-  Element createElement() {
-
-
-
-    throw UnimplementedError();
+  Widget build(BuildContext context) {
+    return Container(
+      width: 200, height: 300,
+      color: Colors.white,
+      child: Text("Lox"),
+    );
   }
+  
+  
 }
