@@ -12,17 +12,6 @@ class FirstLvLApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: AppColors.deepSlate,
-          elevation: 0,
-          centerTitle:true,
-          title: Text("LvL1 Stats Checker",
-            style: TextStyle( color: AppColors.primaryBlue, fontFamily: 'BFL',
-                fontWeight: FontWeight.bold,
-                wordSpacing: 2
-        )
-        ),
-        ),
           body: HomePage()
       ),
       initialRoute: "/home",
